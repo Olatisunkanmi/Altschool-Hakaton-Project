@@ -264,6 +264,14 @@
 
 .about-div{
     flex: 1;
+    padding: 10px 10px;
+    line-height: 25px;
+}
+
+.about-h3{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 22px;
 }
 
 .imp-div{
