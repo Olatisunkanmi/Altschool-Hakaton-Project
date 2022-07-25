@@ -125,6 +125,7 @@
     margin-top: 50px;
     background-color: #fffaf1a6;
     padding-top: 10px;
+  
 }
 
 
@@ -132,6 +133,8 @@
 .services-wrapper{
     max-width: 80%;
     margin: auto;
+    margin-top: 20px;
+  padding-bottom: 30px;
 }
 
 .top-div{
@@ -142,8 +145,8 @@
 
 
 .serv-para, .lorem{
-    font-size: 17px;
-    font-weight: 200;
+    font-size: 22px;
+    font-weight: 600;
     font-family: cursive;
 }
 
@@ -217,7 +220,7 @@ footer{
 .footer-wrapper {
     width: 80%;
     margin: auto;
-    
+    margin-top: 30px;
     display: flex;
     color: white;
     flex-direction: row;
@@ -230,23 +233,32 @@ footer{
 }
 
 .about-h3{
-    color: #ba55d3;
-    font-weight: 900;
+    font-family: serif;
+    font-weight: bolder;
+
     margin-bottom: 10px;
-    font-size: 22px;
+    font-size: 25px;
+    color: white
+}
+
+.about-para{
+    font-size: 20px;
 }
 
 .imp-div{
     flex: 1;
     text-align: center;
+    display: none;
 }
 
 .about-info{
     flex: 1;
-    text-align: right;
+    text-align: left;
 }
 
-
+.hrs{
+    display: none;
+}
 
 
 
@@ -259,9 +271,10 @@ footer{
 
 @media (max-width: 480px) {
    
-    .navbar{
+    .navbar-wrapper{
         display: flex;
         flex-direction: column;
+
     }
 
     .center-item{
@@ -300,10 +313,11 @@ footer{
 
 
 @media (max-width: 768px) {
-        .navbar{
-            display: flex;
-            flex-direction: column;
-        }
+    .navbar-wrapper{
+        display: flex;
+        flex-direction: column;
+
+    }
 
         .center-item{
             display: flex;
@@ -314,6 +328,7 @@ footer{
 
         .bar{
             margin-left: 10px;
+            height: 20px;
             margin-right: 10px;
             border: 1px black solid;
         
@@ -358,7 +373,24 @@ footer{
             
         } 
 
-     
+        /* Footer  */
+        .footer-wrapper{
+            display: flex;
+            flex-direction: column;
+        }
+        .about-info{
+            margin-top: 10px;
+        }
+
+        .hrs{
+            display: block;
+            margin-top: 20px;
+        }
+
+        .imp-div{
+            display: block;
+            margin-top: 10px;
+        }
         
 }
 
