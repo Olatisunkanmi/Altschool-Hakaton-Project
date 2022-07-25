@@ -270,11 +270,178 @@ footer{
 
 
 
+                        /*  */
+                        /*  */
+                        /*  */
+                        /*  */
+                            /* SERVICES PAGE  */
+
+                            /*  */
+                            /*  */
+                            /*  */
+                            /*  */
+                            /*  */
+                            /*  */
+                            /*  */
+
+
+    .header-div{
+        background-color: #e4c180a5;
+        
+    }
+
+    .header-wrapper{
+        align-items: center;
+         max-width:65%;
+         margin: 0;
+         margin: auto;
+         padding-top: 80px;
+         padding-bottom: 80px;
+    }
+
+    .header-h3{
+        font-size: 40px;
+        font-family: serif;
+        color:#5245C2 ;
+        font-weight: bolder;
+    }
+
+    .header-para{
+        align-items: center;
+        font-family: serif;
+        margin-top: 10px;
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    .link-icon{
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 16px;
+        font-weight: 800;
+    }
+
+                                    /* Check Number Divs */
+
+        .check-number-wrapper{
+          
+                max-width:65%;
+                margin: 0;
+                justify-content: space-around;
+                margin: auto;
+                padding-top: 40px;
+                padding-bottom: 200px;
+                display: flex;
+                flex-direction: row;
+        }
+
+    .check-number{
+        background-color: #f9e7c7a6;
+       
+    }
+
+    .input-div{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        /* flex: 1; */
+    }
+
+    .input{
+        border: none;
+        padding: 5px;
+        background-color: inherit;
+        margin-top: 20px;
+        border-bottom: 2px black solid;
+      
+    }
+
+    .input::placeholder{
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .check-btn{
+        margin-top: 10px;
+    }
+
+    .btn{
+        padding: 10px 10px;
+        color: white;
+        font-weight: 900;
+        background-color: #5245C2;
+        border-radius: 10%;
+        border: 2px black solid;
+        cursor: pointer;
+        box-shadow: 10px 8px 0px -2px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 8px 0px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 8px 0px -2px rgba(0,0,0,0.75);
+    }
+
+
+    .result-div{
+        background-color: rgb(233, 226, 226);
+        text-align: left;
+        /* flex: 1; */
+        padding: 10px;
+        box-shadow: 12px 16px 0px 4px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 12px 16px 0px 4px rgba(0,0,0,0.75);
+        -moz-box-shadow: 12px 16px 0px 4px rgba(0,0,0,0.75);
+    }
+
+    .result-h3{
+        font-size: 22px;
+        
+        color: #5245C2;
+        }
+     
+
+    .response-ul{
+        list-style-type: none;
+        padding: 10px;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+    }
+    
+
+    .li-div{
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+    }
+
+    .li-para{
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .li-input{
+        margin-left: 10px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+
+
+    
 
 
 
 
 
+
+/* MEdia Query  */
+/* MEdia Query  */
+/* MEdia Query  */
+/* MEdia Query  */
+/* MEdia Query  */
+/* MEdia Query  */
+/* MEdia Query  */
+/* MEdia Query  */
+/* MEdia Query  */
 /* MEdia Query  */
 
 @media (max-width: 480px) {
@@ -439,158 +606,24 @@ footer{
         flex: 1;
       flex-wrap: wrap;
     }
-}
 
-                        /*  */
-                        /*  */
-                        /*  */
-                        /*  */
-                            /* SERVICES PAGE  */
-
-                            /*  */
-                            /*  */
-                            /*  */
-                            /*  */
-                            /*  */
-                            /*  */
-                            /*  */
-
-
-    .header-div{
-        background-color: #e4c180a5;
-        
-    }
-
-    .header-wrapper{
-        align-items: center;
-         max-width:65%;
-         margin: 0;
-         margin: auto;
-         padding-top: 80px;
-         padding-bottom: 80px;
-    }
-
-    .header-h3{
-        font-size: 40px;
-        font-family: serif;
-        color:#5245C2 ;
-        font-weight: bolder;
-    }
-
-    .header-para{
-        align-items: center;
-        font-family: serif;
-        margin-top: 10px;
-        font-weight: 500;
-        font-size: 20px;
-    }
-
-    .link-icon{
-        margin-left: 5px;
-        margin-right: 5px;
-        font-size: 16px;
-        font-weight: 800;
-    }
-
-                                    /* Check Number Divs */
-
-        .check-number-wrapper{
-          
-                max-width:65%;
-                margin: 0;
-                justify-content: space-around;
-                margin: auto;
-                padding-top: 40px;
-                padding-bottom: 80px;
-                display: flex;
-                flex-direction: row;
-        }
-
-    .check-number{
-        background-color: #f9e7c7a6;
-       
-    }
-
-    .input-div{
+    /* Services  */
+    .check-number-wrapper{
         display: flex;
         flex-direction: column;
-        margin-top: 10px;
-        /* flex: 1; */
     }
-
-    .input{
-        border: none;
-        padding: 5px;
-        background-color: inherit;
-        margin-top: 20px;
-        border-bottom: 2px black solid;
-      
-    }
-
-    .input::placeholder{
-        font-size: 15px;
-        font-weight: 600;
-    }
-
-    .check-btn{
-        margin-top: 10px;
-    }
-
-    .btn{
-        padding: 10px 10px;
-        color: white;
-        font-weight: 900;
-        background-color: #5245C2;
-        border-radius: 10%;
-        border: 2px black solid;
-        cursor: pointer;
-        box-shadow: 10px 8px 0px -2px rgba(0,0,0,0.75);
--webkit-box-shadow: 10px 8px 0px -2px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 8px 0px -2px rgba(0,0,0,0.75);
-    }
-
 
     .result-div{
-        background-color: rgb(233, 226, 226);
-        text-align: left;
-        /* flex: 1; */
-        padding: 10px;
-        box-shadow: 12px 16px 0px 4px rgba(0,0,0,0.75);
-        -webkit-box-shadow: 12px 16px 0px 4px rgba(0,0,0,0.75);
-        -moz-box-shadow: 12px 16px 0px 4px rgba(0,0,0,0.75);
+        margin-top: 30px;
     }
+}
 
-    .result-h3{
-        font-size: 22px;
-        
-        color: #5245C2;
-        }
-     
+                            /*          End OF Media Query  */
+                            /*          End OF Media Query  */
+                            /*          End OF Media Query  */
+                            /*          End OF Media Query  */
+                            /*          End OF Media Query  */
+                            /*          End OF Media Query  */
+                            /*          End OF Media Query  */
+                            /*          End OF Media Query  */
 
-    .response-ul{
-        list-style-type: none;
-        padding: 10px;
-        margin-top: 10px;
-        display: flex;
-        flex-direction: column;
-        text-align: right;
-    }
-    
-
-    .li-div{
-        align-items: center;
-        display: flex;
-        flex-direction: row;
-        margin-top: 20px;
-    }
-
-    .li-para{
-        font-size: 25px;
-        font-weight: 700;
-    }
-
-    .li-input{
-        margin-left: 10px;
-        font-size: 20px;
-        font-weight: 500;
-    }
