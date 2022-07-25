@@ -5,14 +5,21 @@
 
 /*  Navbar STyle */
 .navbar{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     background-color: #fff1d7a6;
     padding: 5px;
     position: sticky;
     top: 0px;
+    
 
+}
+
+
+.navbar-wrapper{
+    width:  80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .brand-div{
@@ -21,7 +28,7 @@
 }
 
 .phonie{
-    font-family: 'Rock Salt', cursive;
+    font-family: 'Berkshire Swash', cursive;
     font-size: 40px;
     font-weight: bolder;
     color: purple;
@@ -50,7 +57,7 @@
 /* Home Main div */
 
 .home-div{
-    background-color: #f9dba4;
+    background-color: #e4c180a5;
  
 }
 
@@ -87,7 +94,7 @@
 }
 
 .img1{
-    width: 50%;
+    width: 40%;
     object-fit: cover;
     
 }
@@ -202,8 +209,9 @@
 
 /* Footer  */
 footer{
-    background-color: #ba55d3;
+    background-color: #9019ae;
     padding: 10px;
+
 }
 
 .footer-wrapper {
