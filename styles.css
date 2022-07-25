@@ -3,73 +3,6 @@
     margin: 0%;
 }
 
-/*  topmost div  */
-
-.alert-div{
-    align-items: center;
-    display: flex ;
-    flex-direction: row ;
-    justify-content: space-between;
-    padding: 10px;
-    background-color: #ba55d3;
-
-}
-
-.left-list{
-    flex: 1 ;
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-
-}
-.left-list-item{
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
-
-
-.center-alert-div{
-    flex: 2;
-    text-align: center;
-    color: black;
-    font-size: 20px;
-    font-weight: 900;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
-
-.right-list{
-    flex: 1;
-    align-items: center;
-    list-style-type: none;
-    flex-direction: row;
-    display: flex;
-    justify-content: end;
-
-}
-
-.right-list-item{
-    margin-left: 5px;
-    margin-right: 10px;
-}
-
-.alert-btn{
-    padding: 10px;
-    background-color: black;
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 15px;
-    cursor: pointer;
-    border-radius: 10px;
-}
-
-.alert-btn:hover{
-    background-color: white;
-    color: black;
-}
-
-
-
 /*  Navbar STyle */
 .navbar{
     display: flex;
@@ -148,10 +81,19 @@
 
 .img-div{
     flex: 1;
+    display: flex;
+    flex-direction:  row;
 }
 
 .img1{
-    width: 32%;
+    width: 50%;
+    object-fit: cover;
+    
+}
+
+.img2{
+    width: 80%;
+    object-fit: cover;
 }
 
 
@@ -288,4 +230,159 @@ footer{
 .about-info{
     flex: 1;
     text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+/* MEdia Query  */
+
+@media (max-width: 480px) {
+   
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .center-item{
+        display: flex;
+        flex-direction: row;
+      
+    }
+
+    .center-list-item{
+        margin-right: 15px;
+     
+     
+    }
+
+
+        /* Card items in services  */
+
+
+    .card-item{
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .card-list{
+        width: auto;
+            
+        } 
+
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+        .navbar{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .center-item{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+
+        .bar{
+            margin-left: 10px;
+            margin-right: 10px;
+            border: 1px black solid;
+        
+        }
+
+
+        /* Home Div */
+        .home-wrapper{
+                flex-direction: column;
+                display: flex;
+                align-items: center;
+        }
+
+        .text-div{
+            flex:1
+        }
+
+        .img2{
+            display: none;
+        }
+
+        .img1{
+            display: none;
+
+        }
+        .img-div{
+            flex: 1;
+          
+        }
+
+
+        /* Card items in services  */
+
+        .card-item{
+            flex-wrap: wrap;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .card-list{
+        width: auto;
+            
+        } 
+
+     
+        
+}
+
+
+
+
+
+
+
+
+@media (max-width :1000px ){
+
+   /* Card items in services  */
+
+
+    .card-item{
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: flex;
+    }
+    
+    .card-list{
+        width: 45%;
+    }
+
+       
+    .img2{
+      width: 400px;
+      height: auto;
+      flex: 1;
+    }
+
+    .img1{
+        display: none;
+
+    }
+    .img-div{
+        flex: 1;
+      flex-wrap: wrap;
+    }
 }
