@@ -551,10 +551,20 @@ footer{
 
 
     .result-div{
-        background-color: white;
+        background-color: rgb(233, 226, 226);
         text-align: left;
         /* flex: 1; */
+        padding: 10px;
+        box-shadow: 12px 16px 0px 4px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 12px 16px 0px 4px rgba(0,0,0,0.75);
+        -moz-box-shadow: 12px 16px 0px 4px rgba(0,0,0,0.75);
     }
+
+    .result-h3{
+        font-size: 22px;
+        
+        color: #5245C2;
+        }
      
 
     .response-ul{
@@ -568,11 +578,19 @@ footer{
     
 
     .li-div{
+        align-items: center;
         display: flex;
         flex-direction: row;
         margin-top: 20px;
     }
 
     .li-para{
+        font-size: 25px;
+        font-weight: 700;
+    }
 
+    .li-input{
+        margin-left: 10px;
+        font-size: 20px;
+        font-weight: 500;
     }
