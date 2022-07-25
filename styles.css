@@ -467,11 +467,12 @@ footer{
          margin: 0;
          margin: auto;
          padding-top: 80px;
+         padding-bottom: 80px;
     }
 
     .header-h3{
         font-size: 40px;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: serif;
         color:#5245C2 ;
         font-weight: bolder;
     }
@@ -490,3 +491,59 @@ footer{
         font-size: 16px;
         font-weight: 800;
     }
+
+                                    /* Check Number Divs */
+
+        .check-number-wrapper{
+            align-items: center;
+                max-width:65%;
+                margin: 0;
+                margin: auto;
+                padding-top: 40px;
+                padding-bottom: 80px;
+                display: flex;
+                flex-direction: row;
+        }
+
+    .check-number{
+        background-color: #f9e7c7a6;
+       
+    }
+
+    .input-div{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .input{
+        border: none;
+        padding: 5px;
+        background-color: inherit;
+        margin-top: 20px;
+        border-bottom: 2px black solid;
+      
+    }
+
+    .input::placeholder{
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .check-btn{
+        margin-top: 10px;
+    }
+
+    .btn{
+        padding: 10px 10px;
+        color: white;
+        font-weight: 900;
+        background-color: #5245C2;
+        border-radius: 10%;
+        border: 2px black solid;
+        cursor: pointer;
+        box-shadow: 10px 8px 0px -2px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 8px 0px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 8px 0px -2px rgba(0,0,0,0.75);
+    }
+     
