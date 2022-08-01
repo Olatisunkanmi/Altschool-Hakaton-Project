@@ -347,8 +347,12 @@ footer{
         /* flex: 1; */
     }
 
+
     .input{
         border: none;
+        outline: none;
+        font-size: 15px;
+        font-weight: 600;
         padding: 5px;
         background-color: inherit;
         margin-top: 20px;
@@ -391,7 +395,6 @@ footer{
 
     .result-h3{
         font-size: 22px;
-        
         color: #5245C2;
         }
      
@@ -433,16 +436,16 @@ footer{
 
 
 
-/* MEdia Query  */
-/* MEdia Query  */
-/* MEdia Query  */
-/* MEdia Query  */
-/* MEdia Query  */
-/* MEdia Query  */
-/* MEdia Query  */
-/* MEdia Query  */
-/* MEdia Query  */
-/* MEdia Query  */
+/* MEdia Query Begins  */
+/* MEdia Query Begins  */
+/* MEdia Query Begins  */
+/* MEdia Query Begins  */
+/* MEdia Query Begins  */
+/* MEdia Query Begins  */
+/* MEdia Query Begins  */
+/* MEdia Query Begins  */
+/* MEdia Query Begins  */
+/* MEdia Query Begins  */
 
 @media (max-width: 480px) {
    
@@ -616,14 +619,24 @@ footer{
     .result-div{
         margin-top: 30px;
     }
+
+     .result-h3{
+        font-size: 22px;
+        }
+ 
+        .li-para, .li-input{
+            font-size: 18px;
+        }
+
+        
 }
 
-                            /*          End OF Media Query  */
-                            /*          End OF Media Query  */
-                            /*          End OF Media Query  */
-                            /*          End OF Media Query  */
-                            /*          End OF Media Query  */
-                            /*          End OF Media Query  */
-                            /*          End OF Media Query  */
-                            /*          End OF Media Query  */
+                            /*          End OF Media Query Begins  */
+                            /*          End OF Media Query Begins  */
+                            /*          End OF Media Query Begins  */
+                            /*          End OF Media Query Begins  */
+                            /*          End OF Media Query Begins  */
+                            /*          End OF Media Query Begins  */
+                            /*          End OF Media Query Begins  */
+                            /*          End OF Media Query Begins  */
 
