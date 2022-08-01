@@ -5,7 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
-
+        <!--  👇🏼 External Fonts -->
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+    
+        <!-- 👆🏼 External Fonts -->
     <title>Our Services</title>
 </head>
 <body>
@@ -69,35 +75,44 @@
 
                     <div class="input-div">
                         <h3 class="input-div-h3"> Validate your Phone number. Here !</h3>
-                            <input class="input" type="text" name="" id="" placeholder="Enter your Phone Number ">
+                        <input  class="input" type="text" name="" id="name" placeholder="Your Name ">
+                            <input id="user-number" class="input phone-number" type="text" name="" id="" placeholder="Enter your Phone Number ">
                          
                             <div class="check-btn">
-                                <button class="btn">Check !</button>
+                                <button class="btn btn-search" id="">Check !</button>
+                                <button class="btn " id="delete-num">Delete</button>
+                            </div>
+
+
+                            <div>
+                                <p class="" id="display-mg"> 
+                                        Number Not Valid 
+                                </p>
                             </div>
                     </div>
 
 
                     <div class="result-div">
-                            <h3 class="result-h3"> Response  </h3>
+                            <h3 class="result-h3" id="#display-res">   </h3>
 
                             <ul class="response-ul">
                                 <li class="reponse-li"> 
                                     <div class="li-div">
-                                        <p class="li-para">Phone Number  :</p>
-                                        <p class="li-input"> +234 423 4344 343</p>
+                                        <p class="li-para"></p>
+                                        <p class="li-input">    </p>
                                     </div>
                                 </li>
 
                                 <li> 
                                     <div  class="li-div">
-                                        <p class="li-para">Country :</p>
-                                        <p class="li-input"> Nigeria </p>
+                                        <p class="li-para"> </p>
+                                        <p class="li-input">  </p>
                                     </div>
                                 </li>
                                 <li> 
                                     <div  class="li-div">
-                                        <p class="li-para">Network Provider :</p>
-                                        <p class="li-input"> MTN Nigeria </p>
+                                        <p class="li-para">  </p>
+                                        <p class="li-input">  </p>
                                     </div>
                                 </li>
                             </ul>
@@ -145,5 +160,7 @@
                                                   </div>
                                             </div>
                                 </footer>
+
+                                <script type="text/javascript" src="./script.js"></script>
 </body>
 </html>
